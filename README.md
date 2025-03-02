@@ -6,7 +6,7 @@ Welcome to my Advent of Code 2024 solutions repository! This project contains my
 
 - [x] Day 1: Location Pairs Calculator
   - Part 1: ✅ Implemented (Calculates total distance between location pairs)
-  - Part 2: 🚧 In Progress
+  - Part 2: ✅ Implemented (Calculates similarity score between location pairs)
 
 ## 🚀 Getting Started
 
@@ -47,9 +47,11 @@ Welcome to my Advent of Code 2024 solutions repository! This project contains my
 advent-of-code-2024/
 ├── day-01/
 │   ├── src/
+│   │   ├── lib.rs         # Shared code for both parts
 │   │   └── bin/
-│   │       ├── part_one.rs
-│   │       └── part_two.rs
+│   │       ├── part_one.rs # Day 1, Part 1 solution
+│   │       ├── part_two.rs # Day 1, Part 2 solution
+│   │       └── data/       # Input data
 │   └── Cargo.toml
 ├── devenv.nix
 └── Cargo.toml
